@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Take a Hike!</title>
+    <style>
+      body {
+        background: linear-gradient(
+          243deg,
+          rgb(255, 253, 221) 13.4%,
+          rgb(248, 215, 215) 82.1%
+        );
+        color: rgb(57, 57, 57);
+        font-family: "Courier New", Courier, monospace;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      h2 {
+        text-align: center;
+      }
+
+      img {
+        max-width: 100%;
+      }
+
+      p {
+        font-size: 18px;
+        line-height: 1.5;
+        text-align: center;
+      }
+
+      button {
+        display: block;
+        margin: 0 auto;
+        border: 2px black;
+        background: rgb(255, 253, 221);
+        font-size: 24px;
+        font-family: "Courier New", Courier, monospace;
+        border-radius: 6px;
+        padding: 10px 15px;
+        transition: all 150mx ease-in-out;
+        color: rgb(57, 57, 57);
+      }
+
+      button:hover {
+        background: rgb(250, 228, 217);
+        cursor: pointer;
+      }
+
+      .container {
+        max-width: 600px;
+        margin: 20px auto;
+        background: rgb(255, 255, 253);
+        padding: 20px;
+        border-radius: 10px;
+      }
+
+      footer {
+        text-align: center;
+        margin: 10px 0;
+        font-size: 20px;
+        color: rgb(57, 57, 57);
+      }
+
+      a {
+        text-decoration: none;
+        color: rgb(212, 62, 144);
+      }
+
+      .theme-button {
+        font-size: 12px;
+        background: rgb(255, 255, 253);
+        color: rgb(57, 57, 57);
+        font-weight: bold;
+        padding: 5 8px;
+      }
+
+      .theme-button:hover {
+        color: rgb(57, 57, 57);
+        background: rgb(250, 228, 217);
+      }
+
+      .hiking-link-picture {
+        border-radius: 10px;
+        transition: all 150ms ease-in-out, filter 2000ms ease-in;
+      }
+
+      .hiking-link-picture:hover {
+        filter: contrast(80%);
+        transform: scale(1.5);
+      }
+
+      .grid {
+        margin: 20px 0;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-gap: 10px;
+      }
+
+      .grid img {
+        width: 100%;
+        border-radius: 8px;
+        object-fit: cover;
+        aspect-ratio: 11/10;
+      }
+
+      .grid img:hover {
+        transform: scale(1.5);
+      }
+
+      .dark {
+        background: linear-gradient(
+          -225deg,
+          #5271c4 0%,
+          #b19fff 48%,
+          #eca1fe 100%
+        );
+        color: white;
+      }
+
+      .dark .container {
+        background: rgb(204, 201, 252);
+        color: black;
+      }
+
+      .dark button {
+        background: rgb(155, 148, 241);
+        border: 2px black;
+        color: black;
+      }
+
+      .dark button:hover {
+        background: rgb(226, 160, 255);
+        cursor: pointer;
+      }
+
+      .dark a {
+        color: black;
+        text-decoration: none;
+      }
+
+      .dark footer {
+        color: white;
+      }
+    </style>
+  </head>
+  <body class="dark">
+    <button class="theme-button">Change theme</button>
+    <div class="container">
+      <h1>Hiking</h1>
+      <h2>A Healthy Hobby 🥾</h2>
+      <a
+        href="https://www.rei.com/learn/expert-advice/hiking-for-beginners.html"
+        target="_blank"
+      >
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/331/original/IMG_2555.jpeg?1717711114"
+          alt="acadia"
+          class="hiking-link-picture"
+        />
+      </a>
+
+      <div class="grid">
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/338/original/IMG_5434.jpeg?1717712174"
+          alt="katahdin-summit"
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/341/original/IMG_8665.png?1717712226"
+          alt="dog-1"
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/339/original/IMG_5439.jpeg?1717712182"
+          alt="katahdin-knife-edge"
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/330/original/IMG_6856.jpeg?1717711029"
+          alt="catskills"
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/340/original/IMG_3759.jpeg?1717712192"
+          alt="dog-2"
+        />
+
+        <img
+          src="https://s3.amazonaws.com/shecodesio-production/uploads/files/000/128/332/original/IMG_4286.jpeg?1717711191"
+          alt="new-hampshire"
+        />
+      </div>
+
+      <p>
+        Hiking is an incredibly beneficial hobby that promotes both physical and
+        mental well-being. Beyond its physical perks, hiking offers a
+        therapeutic escape into nature, clearing the mind and reducing stress
+        levels.
+      </p>
+
+      <p>
+        I find solace and joy in exploring the diverse landscapes of New
+        England. From the rugged beauty of the White Mountains in New Hampshire
+        to the serene trails of Baxter State Park and Acadia in Maine, and even
+        the local paths of Massachusetts. I also enjoy heading out of New
+        England to the scenic vistas of the Catskills in New York.
+      </p>
+
+      <p>Embrace the outdoors and rejuvenate yourself – take a hike today!</p>
+
+      <a
+        href="https://www.rei.com/learn/expert-advice/hiking-for-beginners.html"
+      >
+        <button>Take a Hike</button>
+      </a>
+    </div>
+    <footer>
+      Coded with 💛 by
+      <a
+        href="https://www.shecodes.io/graduates/43613-sarah-gillard"
+        target="_blank"
+        >Sarah Gillard</a
+      >
+    </footer>
+
+    <script>
+      function changeTheme() {
+        let body = document.querySelector("body");
+
+        body.classList.toggle("dark");
+      }
+
+      let themeButton = document.querySelector(".theme-button");
+      themeButton.addEventListener("click", changeTheme);
+    </script>
+  </body>
+</html>
